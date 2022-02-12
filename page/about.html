@@ -15,6 +15,7 @@
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/d31edfa6bf.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../assets/css/about.css">
+    <link rel="stylesheet" href="../assets/css/common.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>Tech-Talk Conference</title>
@@ -43,27 +44,27 @@
         </ul>
 
         <ul id="main-nav">
-            <li class="nav-logo">
-                <img src="../assets/images/company_image.png" alt="">
+            <li>
+                <a href="../index.html"  class="nav-logo"><img src="../assets/images/company_image.png" alt=""></a>
             </li>
             <ul class="right-nav">
                 <li class="right-nav-link">
-                    <a href="#">About</a>
-                </li>
-                <li class="right-nav-link">
-                    <a href="#">Program</a>
-                </li>
-                <li class="right-nav-link">
-                    <a href="#">Join</a>
+                    <a href="../index.html">Home</a>
                 </li>
                 <li class="right-nav-link">
                     <a href="#">About</a>
                 </li>
                 <li class="right-nav-link">
-                    <a href="#">Sponsor</a>
+                    <a href="#contact-us">Contact us</a>
                 </li>
                 <li class="right-nav-link">
-                    <a href="#">News</a>
+                    <a href="#logo">Logo</a>
+                </li>
+                <li class="right-nav-link">
+                    <a href="#past-events">events</a>
+                </li>
+                <li class="right-nav-link">
+                    <a href="#partner">Partner</a>
                 </li>
                 <li class="right-nav-link most-right-link">
                     <a href="#">Tech Campion</a>
@@ -71,6 +72,51 @@
             </ul>
         </ul>
     </header>
+    
+    <section class="mobile-nav">
+        <h1></h1>
+        <div class="close-mob-menu mob-side-nav">
+            <img src="../assets/icons/close-icon.png" alt="">
+        </div>
+        <ul class="mob-menu-list">
+            <li class="mob-side-nav">
+                <a href="../index.html"  class="mob-menu-item" id="home">
+                    Home 
+                    <img src="../assets/icons/chevron_right.png" alt="">
+                </a>
+            </li>
+            <li class="mob-side-nav">
+                <a href="#"  class="mob-menu-item" id="about">
+                    About 
+                    <img src="../assets/icons/chevron_right.png" alt="">
+                </a>
+            </li>
+            <li class="mob-side-nav">
+                <a href="#contact-us"  class="mob-menu-item" id="sponsor">
+                    Contact Us
+                    <img src="../assets/icons/chevron_right.png" alt="">
+                </a>
+            </li>
+            <li class="mob-side-nav">
+                <a href="#logo"  class="mob-menu-item" id="sponsor">
+                    Current Logo 
+                    <img src="../assets/icons/chevron_right.png" alt="">
+                </a>
+            </li>
+            <li class="mob-side-nav">
+                <a href="#past-events"  class="mob-menu-item" id="join">
+                    Past summits 
+                    <img src="../assets/icons/chevron_right.png" alt="">
+                </a>
+            </li>
+            <li class="mob-side-nav">
+                <a href="#partner"  class="mob-menu-item" id="news">
+                    Partner 
+                    <img src="../assets/icons/chevron_right.png" alt="">
+                </a>
+            </li>
+        </ul>
+    </section>
 
     <section class="about-intro-container">
         <header>
@@ -93,7 +139,7 @@
                     <a href="#" class="icon">Logout</a>
                 </li>
             </ul>
-            <span class="mobile-menu">
+            <span class="mobile-menu mob-side-nav">
                 <img src="../assets/icons/menuIcon.svg" alt="Humburgur Menu">
             </span>
     
@@ -102,7 +148,7 @@
         <section class="home-intro">
 
             <div class="page-intro">
-                <h1 id="title-desc">CREATIVE COMMONS GLOBAL SUMMIT 2015</h1>
+                <h1 id="title-desc">International Technology Talk Summit 2022</h1>
                 <div class="opening-desc">
                     <p>The Global summit brings together the community of experts, academics adn activists who comprise the Creative Commmons affilate network in a different country every tow this year, Wehope to expand our inivitation list including organizationa ans individiduals.</p>
                 </div>
@@ -112,12 +158,12 @@
 
     </section>
 
-    <section class="contact-us">
+    <section class="contact-us" id="contact-us">
         <p>Please contact us per Email for any further questions about CC Global Summit</p>
         <a>bush7840@yahoo.com</a>
     </section>
 
-    <section class="logo">
+    <section class="logo" id="logo">
         <h1>Creative commons Global Summit 2015 Logo</h1>
         <p>The logo of CC global summit 2015 was decided through the logo competition from 8.,june to 7,July.</p>
         <img src="../assets/images/company_image.png" alt="">
@@ -125,7 +171,7 @@
 
     <hr>
 
-    <section class="past-events">
+    <section class="past-events" id="past-events">
 
         <div class="program-title">
             <h2 id="feature-title">See the past CC Global Summit</h2>
@@ -159,7 +205,7 @@
 
     </section>
 
-    <section class="partner">
+    <section class="partner" id="partner">
         <div class="program-title">
             <h2 id="partner-title">Partner</h2>
             <div class="break-line">
