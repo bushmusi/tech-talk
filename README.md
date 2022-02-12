@@ -15,8 +15,8 @@ Additional description about the project and its features.
 - Technologies used: **FIGMA**, **ESLINT**, **STYLELINT**, and **GitHub CI/CD**
 
 ## Live Demo
-[Live Video Link](https://www.loom.com/share/860663e593f8499c9a36477aad29397b)
-[Live Demo Link](https://bushmusi.github.io/tech-talk/)
+1. [Watch Video](https://www.loom.com/share/860663e593f8499c9a36477aad29397b)
+2. [Live Link](https://bushmusi.github.io/tech-talk/)
 
 
 ## Getting Started
