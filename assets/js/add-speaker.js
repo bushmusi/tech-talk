@@ -42,9 +42,10 @@ const featureList = document.querySelector('.feature-list');
 speakerList.forEach((value) => {
   const insertElement = `
         <li class="feature-item">
-            <span  id="speaker-img">
-            </span>
-            <img src="${value.image}" alt="Featu-speaker">
+            <div  class="speaker-img">
+                <img class="checker" src="https://l2oukmane.github.io/Capstone-project-Conference-page/imgs/checkerboard.png" alt="Checker Board">
+                <img class="person" src="${value.image}" alt="Featu-speaker">
+            </div>
             <div class="speaker-detail">
                 <h2>${value.name}</h2>
                 <small id="speaker-position"><i>${value.position}</i></small>
