@@ -131,7 +131,7 @@ header {
 .contact-us > p {
   width: 80%;
   text-align: center;
-  font-family: 'Font Awesome 5 Pro', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .contact-us > a {
@@ -151,7 +151,7 @@ header {
 }
 
 .logo > h1 {
-  font-family: 'Font Awesome 5 Pro', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   font-style: normal;
   font-size: 34px;
@@ -159,7 +159,7 @@ header {
 }
 
 .logo > p {
-  font-family: 'Font Awesome 5 Pro', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   color: #000000a3;
   font-size: large;
@@ -229,7 +229,8 @@ hr {
 }
 
 .event-container > img {
-  width: 70%;
+  width: 90%;
+  height: 90%;
   opacity: 0.3;
 }
 
@@ -246,23 +247,16 @@ hr {
 }
 
 .event-year {
-  font-family: 'Font Awesome 5 Pro', sans-serif;
-  color: black;
+  font-family: 'Lato', sans-serif;
+  color: white;
   font-weight: bolder;
   text-align: center;
 }
 
 .event-desc {
-  font-family: 'fangsong', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: inherit;
-}
-
-.partner {
-  display: flex;
-  flex-direction: column;
-  row-gap: 30px;
-  background-color: #4c4949;
-  padding: 30px;
+  color: white;
 }
 
 #partner-title {
@@ -283,6 +277,11 @@ hr {
   width: 20vw;
 }
 
+#break-line-id > hr {
+  width: 50px;
+  border: 1px solid rgb(212, 107, 107);
+}
+
 .footer-content {
   display: flex;
   justify-content: center;
@@ -290,11 +289,15 @@ hr {
   height: 240px;
   align-items: center;
   padding: 20px;
-  background-color: white;
+  background-color: #272a31;
 }
 
 .footer-content > img {
   width: 150px;
+}
+
+.footer-content > strong {
+  color: white;
 }
 
 @media only screen and (min-width: 768px) {
@@ -438,6 +441,14 @@ hr {
     display: none;
   }
 
+  .partner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    background-color: #4c4949;
+    padding: 30px;
+  }
+
   .partner > ul {
     display: flex;
     justify-content: center;
@@ -462,6 +473,10 @@ hr {
 
   .footer-content > img {
     width: 150px;
+  }
+
+  .footer-content > strong {
+    color: black;
   }
 
   .most-right-link > a {

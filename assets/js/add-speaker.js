@@ -23,6 +23,18 @@ const speakerList = [
     detail: 'he had more than 20 years of exprience in cloud practioner in Azure Cloud. Nice to meet you',
     image: './assets/images/speakers/Five-man.jpg',
   },
+  {
+    name: 'Hawletu Zemene',
+    position: 'CTO Yegara Host',
+    detail: 'he had more than 20 years of exprience in cloud practioner in Azure Cloud. Nice to meet you',
+    image: './assets/images/speakers/six-man.jpg',
+  },
+  {
+    name: 'Hawletu Zemene',
+    position: 'CTO Yegara Host',
+    detail: 'he had more than 20 years of exprience in cloud practioner in Azure Cloud. Nice to meet you',
+    image: './assets/images/speakers/Fifth-man.jpg',
+  },
 ];
 
 const featureList = document.querySelector('.feature-list');

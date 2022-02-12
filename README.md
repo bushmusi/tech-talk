@@ -83,7 +83,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Thanks to [Cindy Shin](https://www.behance.net/adagio07) whose design of cc global summit 2015 was used
 - Inspiration
 - etc
 

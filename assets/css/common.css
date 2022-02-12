@@ -8,7 +8,7 @@
   top: 0;
   left: 0;
   padding: 20px;
-  background-color: #c3c5a7;
+  background-color: #e5e5e5e8;
   transition: 0.5s;
   z-index: 2;
 }
@@ -33,6 +33,6 @@
 
 .mob-menu-item {
   text-decoration: none;
-  font-family: 'Font Awesome 5 Pro', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #6166a5;
 }
