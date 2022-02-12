@@ -4,7 +4,7 @@
 
 > This where we announce the up comming tech talk presenter and store their story link here.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./assets/images/app_screenshot.png)
 
 Additional description about the project and its features.
 
