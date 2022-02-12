@@ -1,34 +1,34 @@
-const speaker_list = [
-    {
-        'name': 'Peter Hailu',
-        'position': 'CEO Ice Addis PLC',
-        'detail' : 'he had more than 20 years of exprience in cloud practioner in Azure Cloud. Nice to meet you',
-        'image': './assets/images/speakers/second-man.jpg"'
-    },
-    {
-        'name': 'Yonatan Hailu',
-        'position': 'CEO Soft-Valley',
-        'detail' : 'he had more than 20 years of exprience in cloud practioner in Azure Cloud. Nice to meet you',
-        'image': './assets/images/speakers/third-man.png'
-    },
-    {
-        'name': 'Dereje Tasew',
-        'position': 'COO Ice Addis PLC',
-        'detail' : 'he had more than 20 years of exprience in cloud practioner in Azure Cloud. Nice to meet you',
-        'image': './assets/images/speakers/fourth-man.jpg"'
-    },
-    {
-        'name': 'Bushra Mustofa',
-        'position': 'CTO Hulugram',
-        'detail' : 'he had more than 20 years of exprience in cloud practioner in Azure Cloud. Nice to meet you',
-        'image': './assets/images/speakers/Five-man.jpg'
-    },
+const speakerList = [
+  {
+    name: 'Peter Hailu',
+    position: 'CEO Ice Addis PLC',
+    detail: 'he had more than 20 years of exprience in cloud practioner in Azure Cloud. Nice to meet you',
+    image: './assets/images/speakers/second-man.jpg"',
+  },
+  {
+    name: 'Yonatan Hailu',
+    position: 'CEO Soft-Valley',
+    detail: 'he had more than 20 years of exprience in cloud practioner in Azure Cloud. Nice to meet you',
+    image: './assets/images/speakers/third-man.png',
+  },
+  {
+    name: 'Dereje Tasew',
+    position: 'COO Ice Addis PLC',
+    detail: 'he had more than 20 years of exprience in cloud practioner in Azure Cloud. Nice to meet you',
+    image: './assets/images/speakers/fourth-man.jpg"',
+  },
+  {
+    name: 'Bushra Mustofa',
+    position: 'CTO Hulugram',
+    detail: 'he had more than 20 years of exprience in cloud practioner in Azure Cloud. Nice to meet you',
+    image: './assets/images/speakers/Five-man.jpg',
+  },
 ];
 
 const featureList = document.querySelector('.feature-list');
 
-speaker_list.forEach((value) => {
-    const insertElement = `
+speakerList.forEach((value) => {
+  const insertElement = `
         <li class="feature-item">
             <span  id="speaker-img">
             </span>
@@ -40,5 +40,5 @@ speaker_list.forEach((value) => {
             </div>
         </li>
     `;
-    featureList.innerHTML += insertElement;
-})
+  featureList.innerHTML += insertElement;
+});
