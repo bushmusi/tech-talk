@@ -1,0 +1,38 @@
+
+.mobile-nav {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background-color: #c3c5a7;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.mobile-nav > .close-mob-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.mobile-nav > ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-top: 30px;
+}
+
+.mob-menu-item > img {
+    float: right;
+    color: white;
+}
+
+.mob-menu-item {
+    text-decoration: none;
+    font-family: 'Font Awesome 5 Pro';
+    color: #6166a5;
+}

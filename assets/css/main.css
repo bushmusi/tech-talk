@@ -57,6 +57,13 @@ header {
     margin: var(--margin-common);
 }
 
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: 20px;
+    z-index: 1;
+}
 
 .mobile-menu > img {
     height: 6vh;
@@ -229,6 +236,7 @@ header {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+    column-gap: 10px;
     align-content: center;
 }
 
@@ -238,24 +246,8 @@ header {
     column-gap: 10px;
 }
 
-#speaker-img {
-    background-image: url(../icons/chess.jpg);
-    background-color: black;
-    background-size: 100% 100%;
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
-#speaker-img > img{
-    width: 85%;
-    height: 90%;
-    position: relative;
-    right: opx;
-    bottom: -1px;
-    left: 21px;
-    top: 12px;
+.feature-item > img {
+    width: 100px;
 }
 
 .speaker-detail {
@@ -442,29 +434,21 @@ header {
     .feature-list {
         display: flex;
         flex-direction: row;
-        column-gap: 30px;
         align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 30px;
     }
     
     .feature-item {
         display: flex;
         align-content: center;
         row-gap: 10px;
+        width: 30vw;
     }
 
     .feature-item > img {
-        position: relative;
-        top: 20px;
-        left: -80px;
-        width: 10vw;
-        border: solid 2px #00000026;
-    }
-
-    #speaker-img {
-        background-image: url(../icons/chess.jpg);
-        background-color: red;
-        background-size: 70% 70%;
-        z-index: -1;
+        width: 100px;
     }
 
     .feature-more-btn {
@@ -500,5 +484,9 @@ header {
     .most-right-link > a {
         text-decoration: none;
         color: red;
+    }
+
+    .program-item:hover {
+        border: solid 3px white;
     }
 }

@@ -61,7 +61,6 @@ header {
     margin: var(--margin-common);
 }
 
-
 .mobile-menu > img {
     height: 6vh;
     margin-top: 20px;
@@ -298,7 +297,7 @@ hr {
     width: 150px;
 }
 
-@media only screen and (min-width: 758px) {
+@media only screen and (min-width: 768px) {
 
     #desk-most-top {
         display: block;
