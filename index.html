@@ -15,6 +15,7 @@
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/d31edfa6bf.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>Tech-Talk Conference</title>
@@ -42,27 +43,24 @@
         </ul>
 
         <ul id="main-nav">
-            <li class="nav-logo">
-                <img src="./assets/images/company_image.png" alt="">
+            <li>
+                <a href="#"  class="nav-logo"><img src="./assets/images/company_image.png" alt=""></a>
             </li>
             <ul class="right-nav">
                 <li class="right-nav-link">
-                    <a href="#">About</a>
+                    <a href="#">Home</a>
                 </li>
                 <li class="right-nav-link">
-                    <a href="#">Program</a>
+                    <a href="./page/about.html">About</a>
                 </li>
                 <li class="right-nav-link">
-                    <a href="#">Join</a>
+                    <a href="#main-program">Program</a>
                 </li>
                 <li class="right-nav-link">
-                    <a href="#">About</a>
+                    <a href="#feature-speaker">Speaker</a>
                 </li>
                 <li class="right-nav-link">
-                    <a href="#">Sponsor</a>
-                </li>
-                <li class="right-nav-link">
-                    <a href="#">News</a>
+                    <a href="#partner">Partner</a>
                 </li>
                 <li class="right-nav-link most-right-link">
                     <a href="#">Tech Campion</a>
@@ -70,9 +68,49 @@
             </ul>
         </ul>
     </header>
+
+    <section class="mobile-nav">
+        <h1></h1>
+        <div class="close-mob-menu mob-side-nav">
+            <img src="./assets/icons/close-icon.png" alt="">
+        </div>
+        <ul class="mob-menu-list">
+            <li class="mob-side-nav">
+                <a href="#"  class="mob-menu-item" id="home">
+                    Home 
+                    <img src="./assets/icons/chevron_right.png" alt="">
+                </a>
+            </li>
+            <li class="mob-side-nav">
+                <a href="./page/about.html"  class="mob-menu-item" id="about">
+                    About 
+                    <img src="./assets/icons/chevron_right.png" alt="">
+                </a>
+            </li>
+            <li class="mob-side-nav">
+                <a href="#main-program"  class="mob-menu-item" id="sponsor">
+                    Main Programe
+                    <img src="./assets/icons/chevron_right.png" alt="">
+                </a>
+            </li>
+            <li class="mob-side-nav">
+                <a href="#feature-speaker"  class="mob-menu-item" id="join">
+                    Featured Speaker 
+                    <img src="./assets/icons/chevron_right.png" alt="">
+                </a>
+            </li>
+            <li class="mob-side-nav">
+                <a href="#partner"  class="mob-menu-item" id="news">
+                    Partners 
+                    <img src="./assets/icons/chevron_right.png" alt="">
+                </a>
+            </li>
+        </ul>
+    </section>
+
     <section class="intro-container">
         <header>
-            <span class="mobile-menu">
+            <span class="mobile-menu mob-side-nav">
                 <img src="./assets/icons/menuIcon.svg" alt="Humburgur Menu">
             </span>
     
@@ -81,8 +119,8 @@
         <section class="home-intro">
 
             <div class="page-intro">
-                <h3>"Hello Sharing world"</h1>
-                <h1 id="title-desc">CREATIVE COMMONS GLOBAL SUMMIT 2015</h1>
+                <h3>"Hello Tech World"</h1>
+                <h1 id="title-desc">International Technology Talk SUMMIT 2022</h1>
                 <div class="opening-desc">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam porro ab est reprehenderit reiciendis corporis excepturi nam perspiciatis non recusandae dolorem ut, nisi aperiam quis quidem veritatis qui a nostrum?</p>
                 </div>
@@ -94,7 +132,7 @@
 
     </section>
 
-    <section class="main-program">
+    <section class="main-program" id="main-program">
         <div class="program-title">
             <h2>Main Program</h2>
             <div class="break-line">
@@ -129,7 +167,7 @@
             </button>
         </span>
     </section>
-    <section class="feature-speaker">
+    <section class="feature-speaker" id = "feature-speaker">
     
         <div class="program-title">
             <h2 id="feature-title">Featured Speakers</h2>
@@ -139,78 +177,6 @@
         </div>
 
         <ul class="feature-list">
-
-            <li class="feature-item">
-                <span  id="speaker-img">
-                </span>
-                <img src="./assets/images/speakers/first-man.jpg" alt="Featu-speaker">
-                <div class="speaker-detail">
-                    <h2>Speaker Name</h2>
-                    <small id="speaker-position"><i>CEO at Maryland International University</i></small>
-                    <small>he had more than 20 years of exprience in cloud practioner in Azure Cloud. Nice to meet you</small>
-                </div>
-            </li>
-
-            <li class="feature-item">
-                <span  id="speaker-img">
-                </span>
-                <img src="./assets/images/speakers/second-man.jpg" alt="Featu-speaker">
-                <div class="speaker-detail">
-                    <h2>Speaker Name</h2>
-                    <small id="speaker-position"><i>CEO at Maryland International University</i></small>
-                    <small>he had more than 20 years of exprience in cloud practioner in Azure Cloud. Nice to meet you</small>
-                </div>
-            </li>
-        </ul>
-
-        <ul class="feature-list">
-
-            <li class="feature-item">
-                <span  id="speaker-img">
-                </span>
-                <img src="./assets/images/speakers/first-man.jpg" alt="Featu-speaker">
-                <div class="speaker-detail">
-                    <h2>Speaker Name</h2>
-                    <small id="speaker-position"><i>CEO at Maryland International University</i></small>
-                    <small>he had more than 20 years of exprience in cloud practioner in Azure Cloud. Nice to meet you</small>
-                </div>
-            </li>
-
-            <li class="feature-item">
-                <span  id="speaker-img">
-                </span>
-                <img src="./assets/images/speakers/second-man.jpg" alt="Featu-speaker">
-                <div class="speaker-detail">
-                    <h2>Speaker Name</h2>
-                    <small id="speaker-position"><i>CEO at Maryland International University</i></small>
-                    <small>he had more than 20 years of exprience in cloud practioner in Azure Cloud. Nice to meet you</small>
-                </div>
-            </li>
-        </ul>
-
-        <ul class="feature-list">
-
-            <li class="feature-item">
-                <span  id="speaker-img">
-                </span>
-                <img src="./assets/images/speakers/first-man.jpg" alt="Featu-speaker">
-                <div class="speaker-detail">
-                    <h2>Speaker Name</h2>
-                    <small id="speaker-position"><i>CEO at Maryland International University</i></small>
-                    <small>he had more than 20 years of exprience in cloud practioner in Azure Cloud. Nice to meet you</small>
-                </div>
-            </li>
-
-            <li class="feature-item">
-                <span  id="speaker-img">
-                </span>
-                <img src="./assets/images/speakers/second-man.jpg" alt="Featu-speaker">
-                <div class="speaker-detail">
-                    <h2>Speaker Name</h2>
-                    <small id="speaker-position"><i>CEO at Maryland International University</i></small>
-                    <small>he had more than 20 years of exprience in cloud practioner in Azure Cloud. Nice to meet you</small>
-                </div>
-            </li>
         </ul>
 
         <button class="feature-more-btn">
@@ -220,7 +186,7 @@
 
     </section>
 
-    <section class="partner">
+    <section class="partner" id="partner">
         <div class="program-title">
             <h2 id="partner-title">Partner</h2>
             <div class="break-line">
@@ -243,5 +209,6 @@
     </footer>
 
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/add-speaker.js"></script>
 </body>
 </html>
