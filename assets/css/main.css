@@ -233,10 +233,6 @@ header {
   column-gap: 10px;
 }
 
-/* .feature-item > img {
-  width: 100px;
-} */
-
 .feature-item > .speaker-img {
   display: flex;
   width: 40%;
@@ -445,13 +441,10 @@ header {
     width: 30vw;
   }
 
-  /* .feature-item > img {
-    width: 100px;
-  } */
   .feature-item > .speaker-img {
     display: flex;
     width: 40%;
-    margin-right: 45px;
+    margin-right: 85px;
     padding-bottom: 70px;
   }
 
