@@ -35,26 +35,26 @@ The basic requirements for building the executable are:
 
 1. Clone this project to your local repository
 
-`git clone https://github.com/bushmusi/tech-talk`
+- `git clone https://github.com/bushmusi/tech-talk`
 
 2. Getting pkg and debugging tools
-_Initialise pkg_
-`npm init`
+- _Initialise pkg_
+- `npm init`
 
 _Install style debugger tool_
-`npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x`
+- `npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x`
 _If you want to check your style run below command_
-`npx stylelint "**/*.{css,scss}"`
+- `npx stylelint "**/*.{css,scss}"`
 
-_Web SEO and debugging tool_
-`npm install --save-dev hint@6.x`
-_If you want to check your page_
-`npx hint .`
+- _Web SEO and debugging tool_
+- `npm install --save-dev hint@6.x`
+- _If you want to check your page_
+- `npx hint .`
 
-_Install JS debugger_
-`npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x`
-_Check your js code_
-`npx eslint .`
+- _Install JS debugger_
+- `npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x`
+- _Check your js code_
+- `npx eslint .`
 
 ### Run tests
 
