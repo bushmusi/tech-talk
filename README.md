@@ -4,7 +4,7 @@
 
 > This where we announce the up comming tech talk presenter and store their story link here.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./assets/images/app_screenshot.png)
 
 Additional description about the project and its features.
 
@@ -15,8 +15,8 @@ Additional description about the project and its features.
 - Technologies used: **FIGMA**, **ESLINT**, **STYLELINT**, and **GitHub CI/CD**
 
 ## Live Demo
-
-[Live Demo Link](https://bushmusi.github.io/tech-talk/)
+1. [Watch Video](https://www.loom.com/share/860663e593f8499c9a36477aad29397b)
+2. [Live Link](https://bushmusi.github.io/tech-talk/)
 
 
 ## Getting Started
@@ -26,21 +26,35 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-1. Browser: Chrome, Opera, Mozila and so on...
-2. Node
+The basic requirements for building the executable are:
+1. A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
+2. VSCode or any other equivalent code editor
+3. Node Package Manager (For installing packages like Lighthous, webhint & stylelint used for checking for debugging bad codes before deployment)
 
 ### Setup
 
 1. Clone this project to your local repository
-2. Open {root_dir}/tech-talk/`index.html` on your prefered browser
 
-### Install
+- `git clone https://github.com/bushmusi/tech-talk`
 
-1. Open your terminal from project dir
-2. Run: `npm install`
-3. Then you can check linter in your local repo
+2. Getting pkg and debugging tools
+- _Initialise pkg_
+- `npm init`
 
-### Usage
+_Install style debugger tool_
+- `npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x`
+_If you want to check your style run below command_
+- `npx stylelint "**/*.{css,scss}"`
+
+- _Web SEO and debugging tool_
+- `npm install --save-dev hint@6.x`
+- _If you want to check your page_
+- `npx hint .`
+
+- _Install JS debugger_
+- `npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x`
+- _Check your js code_
+- `npx eslint .`
 
 ### Run tests
 
@@ -69,7 +83,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Thanks to [Cindy Shin](https://www.behance.net/adagio07) whose design of cc global summit 2015 was used
 - Inspiration
 - etc
 
