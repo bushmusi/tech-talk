@@ -43,7 +43,7 @@ speakerList.forEach((value) => {
   const insertElement = `
         <li class="feature-item">
             <div  class="speaker-img">
-                <img class="checker" src="https://l2oukmane.github.io/Capstone-project-Conference-page/imgs/checkerboard.png" alt="Checker Board">
+                <img class="checker" src="./assets/images/checkerboard.png" alt="Checker Board">
                 <img class="person" src="${value.image}" alt="Featu-speaker">
             </div>
             <div class="speaker-detail">
