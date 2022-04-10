@@ -48,7 +48,6 @@ header {
 }
 
 .mobile-menu {
-  position: fixed;
   top: 0;
   left: 0;
   margin-left: 20px;
@@ -190,7 +189,6 @@ header {
 .program-item > p {
   font-family: 'lato', sans-serif;
   text-align: start;
-  width: 190px;
   color: whitesmoke;
 }
 
@@ -354,6 +352,7 @@ header {
     padding: 0 150px;
     align-items: center;
     background-color: white;
+    column-gap: 20px;
   }
 
   .nav-logo > img {
@@ -464,9 +463,9 @@ header {
     transform: translate(15px, 15px);
   }
 
-  .feature-more-btn {
+  /* .feature-more-btn {
     display: none;
-  }
+  } */
 
   .partner > ul {
     display: flex;
@@ -500,7 +499,7 @@ header {
   }
 
   .program-item:hover {
-    border: solid 3px white;
+    border: solid 1px white;
   }
 
   #main-nav > ul {
@@ -509,5 +508,11 @@ header {
     align-items: center;
     width: 100vw;
     column-gap: 40px;
+  }
+}
+
+@media only screen and (max-width: 483px) {
+  .feature-item {
+    column-gap: 51px;
   }
 }
